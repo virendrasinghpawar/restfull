@@ -1,5 +1,9 @@
 package com.tienda.bean;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+
+@XmlRootElement(name="user")
 public class User {
 	
 	private int userId ;
